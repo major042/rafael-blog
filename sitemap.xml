@@ -1,0 +1,9 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% assign pages_to_include = site.pages | where_exp: 'item', 'item.title' %}
+{% for item in pages_to_include %}<url><loc>{{ item.url | absolute_url }}</loc></url>{% endfor %}
+{% for item in site.posts %}<url><loc>{{ item.url | absolute_url }}</loc><lastmod>{{ item.date | date: '%Y-%m-%d' }}</lastmod></url>{% endfor %}
+</urlset>

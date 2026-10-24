@@ -1,0 +1,10 @@
+<header class="site-header">
+  <a class="site-name" href="{{ '/' | relative_url }}" aria-label="Página inicial">rafael<span class="site-name-dot">.</span></a>
+  <nav aria-label="Navegação principal" class="main-nav">
+    <a {% if page.url == '/' %}aria-current="page"{% endif %} href="{{ '/' | relative_url }}">início</a>
+    <a {% if page.url == '/blog/' or page.layout == 'post' %}aria-current="page"{% endif %} href="{{ '/blog/' | relative_url }}">blog</a>
+    <a {% if page.url == '/agora/' %}aria-current="page"{% endif %} href="{{ '/agora/' | relative_url }}">agora</a>
+    <a {% if page.url == '/sobre/' %}aria-current="page"{% endif %} href="{{ '/sobre/' | relative_url }}">sobre</a>
+    <button class="theme-toggle" type="button" aria-label="Alternar tema claro e escuro" title="Alternar tema">◐</button>
+  </nav>
+</header>

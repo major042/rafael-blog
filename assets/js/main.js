@@ -1,0 +1,1 @@
+(function(){const btn=document.querySelector('.theme-toggle');if(!btn)return;btn.addEventListener('click',function(){const dark=document.documentElement.dataset.theme==='dark';document.documentElement.dataset.theme=dark?'light':'dark';try{localStorage.setItem('theme',dark?'light':'dark')}catch(e){}})})();

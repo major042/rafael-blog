@@ -1,0 +1,7 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+<section class="page-heading"><p class="eyebrow">ARQUIVO</p><h1>Blog</h1><p>Ideias, aprendizados e histórias arquivados por aqui. Do mais recente ao mais antigo.</p></section>
+<div class="post-list">{% for post in site.posts %}<article class="post-row"><div class="post-meta"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%d/%m/%Y' }}</time>{% if post.category %}<span class="category">{{ post.category }}</span>{% endif %}</div><h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>{% if post.description %}<p>{{ post.description | escape }}</p>{% endif %}</article>{% endfor %}</div>

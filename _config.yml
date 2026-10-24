@@ -1,0 +1,18 @@
+title: "Rafael Maganha"
+description: "Um espaço pessoal para ideias, tecnologia, design e descobertas."
+url: "https://blog.rafaelmaganha.com.br"
+baseurl: ""
+lang: pt-BR
+timezone: America/Sao_Paulo
+permalink: /blog/:year/:month/:day/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - .gitignore
+  - .github
