@@ -1,3 +1,21 @@
+# Rafael Blog — v2 (visual editorial-terminal)
+
+Este pacote substitui a primeira versão do blog. Inclui cursor piscando, navegação terminal, blogroll e layout mais próximo da estética pessoal/editorial que motivou o projeto.
+
+**IMPORTANTE — domínio:** o arquivo CNAME foi removido porque o domínio ainda não está ativo. `_config.yml` está configurado para `https://major042.github.io/rafael-blog/`. Quando seu domínio estiver pronto, altere `url` para `https://blog.rafaelmaganha.com.br`, `baseurl` para `""` e configure Custom domain no GitHub Pages.
+
+## Atualizar pelo navegador
+
+1. Acesse https://github.com/major042/rafael-blog
+2. Em `Code` → `Add file` → `Upload files`, arraste os arquivos e pastas **de dentro** deste ZIP extraído.
+3. Confirme os arquivos sobrescritos e clique em `Commit changes` diretamente na branch `main`.
+4. **Se o repositório atual ainda contiver `CNAME`, exclua-o**, abrindo o arquivo no GitHub e usando a opção de excluir (ou mantenha apenas se o domínio já estiver corretamente ativo).
+5. Acompanhe `Actions` e acesse https://major042.github.io/rafael-blog/
+
+Privacidade: mantenha senhas, chaves, documentos pessoais e rascunhos particulares fora do repositório público. Seus commits e arquivos ficarão públicos.
+
+---
+
 # Blog pessoal — Rafael Maganha
 
 Primeira versão, com **Jekyll nativo** e publicação no **GitHub Pages**, sem hospedagem paga e sem banco de dados. Estética autoral minimalista inspirada no TechDemo (não é cópia do código nem do design).

@@ -3,19 +3,23 @@ layout: default
 title: Início
 ---
 <section class="intro">
-  <p class="eyebrow">UM POUCO DE TUDO, SEM PRESSA.</p>
-  <h1>Olá, sou o Rafael <span class="hello">✳</span></h1>
+  <p class="eyebrow"><span class="terminal-chevron">&gt;</span> BEM-VINDO AO MEU CANTO NA INTERNET</p>
+  <h1>Hey! Prazer, sou o Rafael<span class="blink-caret" aria-hidden="true">_</span></h1>
   <p>Trabalho com design e comunicação, gosto de tecnologia e estou sempre descobrindo algo novo.</p>
-  <p>Este é meu pequeno espaço na internet para registrar experiências, ideias, projetos e assuntos que me despertam curiosidade. Sem algoritmos, sem obrigação de postar — só vontade de compartilhar.</p>
-  <a href="{{ '/sobre/' | relative_url }}" class="inline-link">um pouco mais sobre mim ↗</a>
+  <p>Criei este espaço para registrar experiências, ideias, projetos e assuntos que me despertam curiosidade. Um lugar para escrever no meu ritmo e manter um pedacinho da internet com a minha cara.</p>
+  <p class="about-cta">Mais sobre mim: <a href="{{ '/sobre/' | relative_url }}">~/sobre →</a></p>
 </section>
 <hr>
 <section class="posts-section" aria-labelledby="recentes">
-  <div class="section-heading"><h2 id="recentes">Textos recentes</h2><a href="{{ '/blog/' | relative_url }}">ver todos →</a></div>
-  {% for post in site.posts limit:5 %}
-    <article class="post-line"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%d.%m.%Y' }}</time><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></article>
+  <div class="section-heading"><h2 id="recentes"><span class="section-prefix">#</span> Posts recentes</h2></div>
+  {% for post in site.posts limit:6 %}
+    <article class="post-line"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%d %b, %Y' }}</time><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></article>
   {% endfor %}
   {% if site.posts.size == 0 %}<p class="muted">Os primeiros textos aparecerão aqui em breve.</p>{% endif %}
+  <a class="all-posts" href="{{ '/blog/' | relative_url }}">Todas as publicações →</a>
 </section>
 <hr>
-<section class="notes-section"><h2>Por aqui</h2><div class="note-grid"><div><span class="mini-icon">↗</span><h3><a href="{{ '/agora/' | relative_url }}">Agora</a></h3><p>O que estou aprendendo, usando e explorando ultimamente.</p></div><div><span class="mini-icon">⌁</span><h3><a href="{{ '/sobre/' | relative_url }}">Sobre</a></h3><p>Mais sobre quem escreve este blog e o motivo de ele existir.</p></div></div></section>
+<section class="notes-section"><h2><span class="section-prefix">#</span> Mais por aqui</h2>
+  <p class="small-intro">Além dos textos, algumas páginas que ajudam a contar um pouco de quem sou.</p>
+  <div class="simple-links"><a href="{{ '/agora/' | relative_url }}"><strong>~/agora</strong><span>Coisas que ando fazendo e explorando</span><span aria-hidden="true">↗</span></a><a href="{{ '/blogroll/' | relative_url }}"><strong>~/blogroll</strong><span>Outros cantinhos interessantes da web</span><span aria-hidden="true">↗</span></a><a href="{{ '/sobre/' | relative_url }}"><strong>~/sobre</strong><span>Um pouco mais sobre mim</span><span aria-hidden="true">↗</span></a></div>
+</section>
