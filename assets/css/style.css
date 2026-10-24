@@ -32,3 +32,9 @@ body{font:15px/1.8 system-ui,-apple-system,"Segoe UI",sans-serif;transition:none
 .post-row{padding:16px 0}.post-row h2{font-size:21px}.article{padding-top:42px}
 @media(max-width:630px){.container{padding:0 21px}.site-header{align-items:flex-start;flex-direction:column;gap:14px;padding-top:25px}.main-nav{gap:11px 15px}.main-nav a{font-size:11px}.intro{padding:43px 0 33px}.intro h1{font-size:32px}.post-line{grid-template-columns:1fr;gap:0;padding:9px 0}.simple-links>a{grid-template-columns:95px 1fr 13px;gap:5px}.simple-links>a span{font-size:12px}}
 @media(prefers-reduced-motion:reduce){.cursor,.blink-caret{animation:none}}
+
+/* Ajuste do espaçamento na apresentação */
+.intro p:not(.eyebrow):not(.about-cta) {
+  margin-bottom: 6px;
+}
+
