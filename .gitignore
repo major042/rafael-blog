@@ -1,0 +1,16 @@
+# Arquivos gerados pelo Jekyll (não publicar no repositório)
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Dependências e configurações locais
+.bundle/
+vendor/
+
+# Arquivos temporários de editores e do sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
