@@ -19,5 +19,4 @@ Viagens, lugares interessantes e boas histórias.
 
 ---
 
-*Atualize esta página quando quiser. Não precisa funcionar como uma rede social.*
 </div>
