@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<section class="page-heading">
+  <p class="eyebrow">{{ page.eyebrow | escape }}</p>
+  <h1>{{ page.heading | default: page.title | escape }}</h1>
+  {% if page.intro %}<p>{{ page.intro | escape }}</p>{% endif %}
+</section>
+<div class="prose">
+  {{ content }}
+</div>

@@ -1,10 +1,11 @@
 ---
-layout: default
+layout: page
 title: Agora
+eyebrow: Uma página em movimento
+intro: Uma fotografia simples do que tem ocupado meus dias. Inspirada na ideia de uma now page.
 permalink: /agora/
 ---
-<section class="page-heading"><p class="eyebrow">UMA PÁGINA EM MOVIMENTO</p><h1>Agora</h1><p>Uma fotografia simples do que tem ocupado meus dias. Inspirada na ideia de uma <em>now page</em>.</p></section>
-<div class="prose">
+
 ## Explorando
 
 Tecnologia, sistemas operacionais, ferramentas digitais e ideias para projetos pessoais.
@@ -16,7 +17,3 @@ Novas maneiras de unir design, comunicação e tecnologia.
 ## Fora das telas
 
 Viagens, lugares interessantes e boas histórias.
-
----
-
-</div>
