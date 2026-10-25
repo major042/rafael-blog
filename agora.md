@@ -2,18 +2,20 @@
 layout: page
 title: Agora
 eyebrow: Uma página em movimento
-intro: Uma fotografia simples do que tem ocupado meus dias. Inspirada na ideia de uma now page.
+intro: Minha now page, que espero lembrar de atualizar todos os meses
 permalink: /agora/
 ---
 
 ## Explorando
 
-Tecnologia, sistemas operacionais, ferramentas digitais e ideias para projetos pessoais.
+Continuo buscando entender mais sobre llms, e formas de integrar em meus projetos profissionais ou não.
 
 ## Aprendendo
 
-Novas maneiras de unir design, comunicação e tecnologia.
+Iniciei o curso [Rotulando](https://cursorotulando.com.br/), que é focado no design de embalagens, justamente o que trabalho hoje numa indútria alimentícia. A própria empresa disponibilizou o curso e tenho aproveitado muito a oportunidade.
 
 ## Fora das telas
 
-Viagens, lugares interessantes e boas histórias.
+Quero conhecer mais a região onde vivo, por isso criei um roteiro regional com as atrações acessíveis e que mais me interessam. 
+
+*Atualizado em outubro de 2026.*
